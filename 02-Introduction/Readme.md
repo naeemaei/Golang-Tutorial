@@ -23,11 +23,10 @@ Run this commands in terminal:
 
 1. [Download file](https://go.dev/dl/go1.18.1.linux-amd64.tar.gz)
 2. Extract file `tar -xf "go1.18.1.linux-amd64.tar.gz"`
-3. Go to go folder `cd go/`
-4. Setup permissions `sudo chown -R root:root ./go`
-5. Move go binaries to local folder `sudo mv -v go /usr/local`
-6. for Setup go path, open profile: `code ~/.bash_profile`
-7. Append following to lines to file:
+3. Setup permissions `sudo chown -R root:root ./go`
+4. Move go binaries to local folder `sudo mv -v go /usr/local`
+5. for Setup go path, open profile: `code ~/.bash_profile`
+6. Append following to lines to file:
    ```
    export GOPATH=$HOME/go
    export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
