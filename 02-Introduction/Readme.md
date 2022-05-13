@@ -26,7 +26,7 @@ Run this commands in terminal:
 3. Go to go folder `cd go/`
 4. Setup permissions `sudo chown -R root:root ./go`
 5. Move go binaries to local folder `sudo mv -v go /usr/local`
-6. for Setup go path, open profile: `vim ~/.bash_profile`
+6. for Setup go path, open profile: `code ~/.bash_profile`
 7. Append following to lines to file:
    ```
    export GOPATH=$HOME/go
