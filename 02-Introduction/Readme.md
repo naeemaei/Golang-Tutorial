@@ -45,7 +45,7 @@ Run this commands in terminal:
 
 #### Linux:
 
-Run this commands in terminal:
+Run this commands in terminal or see this [link](https://git-scm.com/download/linux):
 
     sudo apt update
     sudo apt-get install git
