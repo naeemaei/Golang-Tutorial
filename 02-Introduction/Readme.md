@@ -25,7 +25,7 @@ Run this commands in terminal:
 2. Extract file `tar -xf "go1.18.1.linux-amd64.tar.gz"`
 3. Setup permissions `sudo chown -R root:root ./go`
 4. Move go binaries to local folder `sudo mv -v go /usr/local`
-5. for Setup go path, open profile: `code ~/.bash_profile`
+5. for Setup go path, open profile: `code ~/.bash_profile` or `code ~/.profile`
 6. Append following to lines to file:
    ```
    export GOPATH=$HOME/go
