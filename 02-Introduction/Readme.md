@@ -31,6 +31,12 @@ Run this commands in terminal:
    export GOPATH=$HOME/go
    export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
    ```
+7. source this file: `source ~/.bash_profile` or `source ~/.profile`
+8. Run `go version` to check if go is installed
+
+### Install Go Debugger
+
+Run this command: ` go install github.com/go-delve/delve/cmd/dlv`
 
 ### Install Visual Studio Code
 
