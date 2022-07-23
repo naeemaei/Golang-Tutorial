@@ -1,0 +1,4 @@
+github.com/jalaali/go-jalaali v0.0.0-20210801064154-80525e88d958 h1:qxLoi6CAcXVzjfvu+KXIXJOAsQB62LXjsfbOaErsVzE=
+github.com/jalaali/go-jalaali v0.0.0-20210801064154-80525e88d958/go.mod h1:Wqfu7mjUHj9WDzSSPI5KfBclTTEnLveRUFr/ujWnTgE=
+github.com/naeemaei/TestModule v0.0.1 h1:EOi7KcM5+hAWfXcbY+MZ4BWDOx3+YGrsVWoXIahpyPc=
+github.com/naeemaei/TestModule v0.0.1/go.mod h1:vG6vCeWm8bil8ync2P04+T3S9/e5h1cql6kf8NL1Mbw=
