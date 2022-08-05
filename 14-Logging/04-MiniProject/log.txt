@@ -1,0 +1,24 @@
+{"level":"info","AppName":"MyApp","Order":{"ID":1,"UserFullName":"John Doe","UserId":"09115252524","Price":100,"Status":true,"NotificationType":"Email"},"time":"2022-07-29T19:21:42+04:30","message":"Order created: &{1 John Doe 09115252524 100 true Email}\n"}
+{"level":"info","AppName":"MyApp","Order":{"ID":2,"UserFullName":"John Mac","UserId":"09123332221","Price":220,"Status":true,"NotificationType":"Sms"},"time":"2022-07-29T19:21:42+04:30","message":"Order created: &{2 John Mac 09123332221 220 true Sms}\n"}
+{"level":"info","AppName":"MyApp","Order":{"ID":3,"UserFullName":"Reza Mac","UserId":"09991252525","Price":210,"Status":true,"NotificationType":""},"time":"2022-07-29T19:21:42+04:30","message":"Order created: &{3 Reza Mac 09991252525 210 true }\n"}
+{"level":"error","AppName":"MyApp","error":"order price is not valid","time":"2022-07-29T19:35:37+04:30","message":"Order 1 is not valid"}
+{"level":"info","AppName":"MyApp","Order":{"ID":2,"UserFullName":"John Mac","UserId":"09123332221","Price":220,"Status":true,"NotificationType":"Sms"},"time":"2022-07-29T19:35:37+04:30","message":"Order created:"}
+{"level":"info","AppName":"MyApp","Notifier ":{},"time":"2022-07-29T19:35:37+04:30","message":"Notifier founded:"}
+{"level":"info","AppName":"MyApp","notifier":"nilNotifyService","messageInfo":{"receiver":"09123332221","message":"Order created"},"time":"2022-07-29T19:35:37+04:30","message":"Message sent"}
+{"level":"info","AppName":"MyApp","Order":{"ID":3,"UserFullName":"Reza Mac","UserId":"09991252525","Price":210,"Status":true,"NotificationType":""},"time":"2022-07-29T19:35:37+04:30","message":"Order created:"}
+{"level":"info","AppName":"MyApp","Notifier ":{},"time":"2022-07-29T19:35:37+04:30","message":"Notifier founded:"}
+{"level":"info","AppName":"MyApp","notifier":"nilNotifyService","messageInfo":{"receiver":"09991252525","message":"Order created"},"time":"2022-07-29T19:35:37+04:30","message":"Message sent"}
+{"level":"error","AppName":"MyApp","entityInfo":{"ID":1,"UserFullName":"John Doe","UserId":"09115252524","Price":100,"Status":true,"NotificationType":"Email"},"error":"order price is not valid","time":"2022-07-29T19:37:20+04:30","message":"Order 1 is not valid"}
+{"level":"info","AppName":"MyApp","Order":{"ID":2,"UserFullName":"John Mac","UserId":"09123332221","Price":220,"Status":true,"NotificationType":"Sms"},"time":"2022-07-29T19:37:20+04:30","message":"Order created:"}
+{"level":"info","AppName":"MyApp","Notifier ":{},"time":"2022-07-29T19:37:20+04:30","message":"Notifier founded:"}
+{"level":"info","AppName":"MyApp","notifier":"nilNotifyService","messageInfo":{"receiver":"09123332221","message":"Order created"},"time":"2022-07-29T19:37:20+04:30","message":"Message sent"}
+{"level":"info","AppName":"MyApp","Order":{"ID":3,"UserFullName":"Reza Mac","UserId":"","Price":210,"Status":true,"NotificationType":""},"time":"2022-07-29T19:37:20+04:30","message":"Order created:"}
+{"level":"info","AppName":"MyApp","Notifier ":{},"time":"2022-07-29T19:37:20+04:30","message":"Notifier founded:"}
+{"level":"error","AppName":"MyApp","entityInfo":{"ID":3,"UserFullName":"Reza Mac","UserId":"","Price":210,"Status":true,"NotificationType":""},"error":"receiver is empty","time":"2022-07-29T19:37:20+04:30","message":"Order 1 is not valid"}
+{"level":"error","AppName":"MyApp","entityInfo":{"ID":1,"UserFullName":"John Doe","UserId":"09115252524","Price":100,"Status":true,"NotificationType":"Email"},"error":"order price is not valid","time":"2022-07-29T19:39:43+04:30","message":"Order 1 is not valid"}
+{"level":"info","AppName":"MyApp","Order":{"ID":2,"UserFullName":"John Mac","UserId":"09123332221","Price":220,"Status":true,"NotificationType":"Sms"},"time":"2022-07-29T19:39:43+04:30","message":"Order created:"}
+{"level":"info","AppName":"MyApp","time":"2022-07-29T19:39:43+04:30","message":"Notifier founded: *externalServices.SmsService"}
+{"level":"info","AppName":"MyApp","notifier":"nilNotifyService","messageInfo":{"receiver":"09123332221","message":"Order created"},"time":"2022-07-29T19:39:43+04:30","message":"Message sent"}
+{"level":"info","AppName":"MyApp","Order":{"ID":3,"UserFullName":"Reza Mac","UserId":"","Price":210,"Status":true,"NotificationType":""},"time":"2022-07-29T19:39:43+04:30","message":"Order created:"}
+{"level":"info","AppName":"MyApp","time":"2022-07-29T19:39:43+04:30","message":"Notifier founded: *externalServices.NilNotifyService"}
+{"level":"error","AppName":"MyApp","entityInfo":{"ID":3,"UserFullName":"Reza Mac","UserId":"","Price":210,"Status":true,"NotificationType":""},"error":"receiver is empty","time":"2022-07-29T19:39:43+04:30","message":"Order 1 is not valid"}

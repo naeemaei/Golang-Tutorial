@@ -1,0 +1,19 @@
+2022/07/29 13:26:48 Start of main
+2022/07/29 13:26:48 Start of Sum
+2022/07/29 13:26:48 End of Sum
+2022/07/29 13:27:01 Start of main
+2022/07/29 13:27:01 Start of Sum
+2022/07/29 13:27:01 End of Sum
+2022/07/29 13:29:20 example1.go:18: Start of main
+2022/07/29 13:29:20 example1.go:24: Start of Sum
+2022/07/29 13:29:20 example1.go:26: End of Sum
+2022/07/29 example1.go:18: Start of main
+2022/07/29 example1.go:24: Start of Sum
+2022/07/29 example1.go:26: End of Sum
+Info: 2022/07/29 13:33:47 example1.go:30: Start of main
+Warn: 2022/07/29 13:33:47 example1.go:36: Start of Sum
+Warn: 2022/07/29 13:33:47 example1.go:38: End of Sum
+{"time": "2022/07/29 13:33:47", "level": "Info", "msg": "Start of main"}
+{"time": "2022/07/29 13:33:47", "level": "Warn", "msg": "Start of Sum"}
+{"time": "2022/07/29 13:33:47", "level": "Warn", "msg": "End of Sum"}
+{"time": "2022/07/29 13:33:47", "level": "Info", "msg": "End of main"}
