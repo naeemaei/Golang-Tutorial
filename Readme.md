@@ -1,36 +1,40 @@
-<div dir="rtl">
+# Golang Tutorial [Course Address](https://7learn.com/course/golang-expert)
 
-# دوره آموزش Go
+# Basic
+## [Section 1 : Intro](01)
 
-<p></p>
+## [Section 2 : Requirements](02-Introduction)
 
-# [فصل 1 : معرفی دوره](01)
+## [Section 3 : Data types](03-DataTypes)
 
-<p></p>
+## [Section 4 : Const and variables](04-Variables)
 
-# [فصل 2 : پیش نیاز ها](02-Introduction)
+## [Section 5 : Conditional statements](05-ConditionalStatements)
 
-<p></p>
+## [Section 6 : Loop statements](06-Loops)
 
-# [فصل 3 : آشنایی با دیتا تایپ ها](03-DataTypes)
+## [Section 7 : Composite data types](07-CompositeDataTypes)
 
-<p></p>
+## [Section 8 : Functions](08-Function)
 
-# [فصل 4 : آشنایی با ثابت ها و متغیر ها](04-Variables)
+## [Section 9 : Structs](09-Structs)
 
-<p></p>
+## [Section 10 : Interface](10-Interfaces)
 
-# [فصل 5 : آشنایی با ساختار های شرطی](05-ConditionalStatements)
+## [Section 11 : Modules](11-Modules)
 
-<p></p>
+# Advanced
 
-# [فصل 6 : آشنایی با ساختار های تکرار](06-Loops)
+## [Section 12 : Generics](12-Generics)
 
-<p></p>
+## [Section 13 : Errors](13-Errors)
 
-# [فصل 7 : آشنایی با دیتاتایپ های پیچیده](07-CompositeDataTypes)
-<p></p>
+## [Section 14 : Logging](14-Logging)
 
-# [فصل 7 : آشنایی باتوابع](08-Function)
+## [Section 15 : Concurrency](15-Concurrency)
 
-</div>
+## [Section 16 : Json](16-Json)
+
+## [Section 17 : Http](17-Http)
+
+## [Section 18 : Test](18-Test)
