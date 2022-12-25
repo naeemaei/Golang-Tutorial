@@ -1,0 +1,29 @@
+version: '3'
+services:
+  postgres:
+    container_name: pgdb
+    image: postgres
+    hostname: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: TEST_SM
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  pgadmin:
+    image: dpage/pgadmin4
+    depends_on:
+      - postgres
+    ports:
+      - "8090:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: hamed@test.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    restart: unless-stopped
+
+volumes:
+  postgres-data:

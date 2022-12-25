@@ -8,7 +8,7 @@ import (
 
 func Run() {
 	mux := http.NewServeMux()
-	mux.Handle("/users/", &handlers.MovieHandler{})
+	mux.Handle("/movies/", &handlers.MovieHandler{})
 	server := &http.Server{
 		Addr:         ":8080",
 		ReadTimeout:  time.Second * 10,

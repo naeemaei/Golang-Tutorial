@@ -45,13 +45,13 @@ func GetMovies(w http.ResponseWriter, req *http.Request) {
 	}
 
 	// parse the movie data into json format
-	moviesJSON, err := json.Marshal(&movies)
-	if err != nil {
-		utils.SetResult(w, http.StatusInternalServerError, nil, utils.ApiError{Id: "jsonMarshal", Message: "Error parsing the movie data" + err.Error()})
-		return
-	}
+	// moviesJSON, err := json.Marshal(&movies)
+	// if err != nil {
+	// 	utils.SetResult(w, http.StatusInternalServerError, nil, utils.ApiError{Id: "jsonMarshal", Message: "Error parsing the movie data" + err.Error()})
+	// 	return
+	// }
 
-	utils.SetResult(w, http.StatusOK, moviesJSON, nil)
+	utils.SetResult(w, http.StatusOK, movies, nil)
 }
 
 func GetMovie(w http.ResponseWriter, req *http.Request) {
@@ -75,13 +75,13 @@ func GetMovie(w http.ResponseWriter, req *http.Request) {
 	}
 
 	// parse the movie data into json format
-	movieJSON, err := json.Marshal(&movie)
-	if err != nil {
-		utils.SetResult(w, http.StatusInternalServerError, nil, utils.ApiError{Id: "jsonMarshal", Message: "Error parsing the movie data" + err.Error()})
-		return
-	}
+	// movieJSON, err := json.Marshal(&movie)
+	// if err != nil {
+	// 	utils.SetResult(w, http.StatusInternalServerError, nil, utils.ApiError{Id: "jsonMarshal", Message: "Error parsing the movie data" + err.Error()})
+	// 	return
+	// }
 
-	utils.SetResult(w, http.StatusOK, movieJSON, nil)
+	utils.SetResult(w, http.StatusOK, movie, nil)
 }
 
 func AddMovie(w http.ResponseWriter, req *http.Request) {
