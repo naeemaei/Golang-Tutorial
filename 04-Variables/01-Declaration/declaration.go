@@ -2,6 +2,11 @@
 // Click here and start typing.
 package main
 
+import (
+	"fmt"
+	"runtime/debug"
+)
+
 func main() {
 	//var varName type = value
 	// 1
@@ -59,5 +64,10 @@ func main() {
 	println("i7: ", i7)
 	println("f5: ", f5)
 	println("s7: ", s7)
+	fmt.Printf("Stack is 1 %s\n\n\n", string(debug.Stack()))
+	fmt.Printf("Stack is 2 %s\n\n\n", string(debug.Stack()))
+	debug.PrintStack()
+	println("i7: ", i7)
+	debug.PrintStack()
 
 }
