@@ -2,6 +2,7 @@
 package main
 
 import (
+	"log"
 	"notification/core"
 	"notification/entities"
 	"notification/services"
@@ -10,7 +11,7 @@ import (
 var logger = core.NewFileLogger()
 
 func main() {
-
+	log.Logger = logger
 	order1 := entities.Order{
 		ID:               1,
 		UserFullName:     "John Doe",
