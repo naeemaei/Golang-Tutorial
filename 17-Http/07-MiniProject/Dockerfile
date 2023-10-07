@@ -1,4 +1,4 @@
-FROM golang:1.18-alpine as builder
+FROM golang:1.19-buster as builder
 
 WORKDIR /app
 
@@ -10,5 +10,5 @@ COPY . ./
 RUN go build -v -o server
 
 COPY ./ ./app/server
-EXPOSE 80
+
 CMD ["/app/server"]
