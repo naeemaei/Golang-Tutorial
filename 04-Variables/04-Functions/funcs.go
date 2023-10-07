@@ -8,9 +8,9 @@ import (
 func main() {
 	myString := "this is golang tutorial go go"
 
-	fmt.Println(strings.Contains(myString, "go1"))
-	fmt.Println(strings.ContainsAny(myString, "go1"))
-	fmt.Println(strings.Count(myString, "go"))
+	fmt.Println("EqualFold", strings.Contains(myString, "go1"))
+	fmt.Println("EqualFold", strings.ContainsAny(myString, "go1"))
+	fmt.Println("EqualFold", strings.Count(myString, "go"))
 	fmt.Println(strings.Cut(myString, "go1"))
 
 	myStringArray := strings.Split(myString, " ")
@@ -23,39 +23,39 @@ func main() {
 
 	myStringArray2 := strings.Join(myStringArray, ",")
 
-	println(myStringArray2)
+	println("Join", myStringArray2)
 
-	println(strings.Repeat("iran ", 10))
+	println("Repeat", strings.Repeat("iran ", 10))
 
-	println(strings.Replace(myString, "golang", "go", 3))
-	println(strings.ReplaceAll(myString, "go", "golang"))
+	println("Replace", strings.Replace(myString, "golang", "go", 3))
+	println("ReplaceAll", strings.ReplaceAll(myString, "go", "golang"))
 
-	println(strings.Compare("golang", "golang"))
-	println(strings.Compare("Golang", "golang"))
-	println(strings.Compare("Golang", "GOLANG"))
+	println("Compare", strings.Compare("golang", "golang"))
+	println("Compare", strings.Compare("Golang", "golang"))
+	println("Compare", strings.Compare("Golang", "GOLANG"))
 
-	println(strings.EqualFold("Golang", "GOLANG"))
-	println(strings.EqualFold("Golang", "golang"))
-
-
-	println(strings.HasPrefix("Iran", "Ir"))
-	println(strings.HasPrefix("Iran", "IR"))
-
-	println(strings.HasSuffix("Iran", "an"))
-	println(strings.HasSuffix("Iran", "n"))
-
-	println(strings.Index("Iran", "an"))
-	println(strings.Index("Iran", "r"))
+	println("EqualFold", strings.EqualFold("Golang", "GOLANG"))
+	println("EqualFold", strings.EqualFold("Golang", "golang"))
 
 
-	println(strings.ToLower("IrAn"))
-	println(strings.ToUpper("IrAn"))
-	println(strings.Title("Iran is a country"))
+	println("HasPrefix", strings.HasPrefix("Iran", "Ir"))
+	println("HasPrefix", strings.HasPrefix("Iran", "IR"))
 
-	println(strings.Trim("  Iran is a country   ", " "))
-	println(strings.TrimLeft("!!Iran is a country!!", "!"))
-	println(strings.TrimRight("!!Iran is a country!!", "!"))
-	println(strings.Trim("!!Iran is a country!!", "!"))
+	println("HasSuffix", strings.HasSuffix("Iran", "an"))
+	println("HasSuffix", strings.HasSuffix("Iran", "n"))
+
+	println("Index an", strings.Index("Iran", "an"))
+	println("Index r", strings.Index("Iran", "r"))
+
+
+	println("ToLower", strings.ToLower("IrAn"))
+	println("ToUpper", strings.ToUpper("IrAn"))
+	println("Title", strings.Title("Iran is a country"))
+
+	println("Trim", strings.Trim("  Iran is a country   ", " "))
+	println("TrimLeft", strings.TrimLeft("!!Iran is a country!!", "!"))
+	println("TrimRight", strings.TrimRight("!!Iran is a country!!", "!"))
+	println("Trim", strings.Trim("!!Iran is a country!!", "!"))
 
 
 
